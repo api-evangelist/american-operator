@@ -1,19 +1,42 @@
 aid: american-operator
 name: American Operator
-description: American Operator is a company surfaced as a portfolio company of 8vc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: American Operator acquires small businesses from retiring owners and pairs
+  them with vetted operators through an operate-to-own model, where operators begin with
+  a 10% stake on day one and follow a defined path to majority ownership. The company runs
+  an "Exit Confidently" program that gives retiring owners all-cash closes, and supports
+  its operators with hands-on guidance, industry advisors, and a governance structure.
+  Backed by 8vc, American Operator publishes a marketing and applicant website but exposes
+  no public API, developer portal, SDK, or documentation surface as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/american-operator/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 8vc
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://framerusercontent.com/assets/mlsUP9bfsqq30bNyS29VisOteJg.jpg
 tags:
 - Company
+- Small Business
+- Business Acquisition
+- Ownership Transition
+- Operate to Own
+- Private Equity
+- 8vc
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://americanoperator.com
+- type: PrivacyPolicy
+  url: https://americanoperator.com/privacy-policy
+- type: TermsOfService
+  url: https://americanoperator.com/legal
+- type: Support
+  url: https://americanoperator.com/get-involved
+- type: DomainSecurity
+  url: security/american-operator-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
